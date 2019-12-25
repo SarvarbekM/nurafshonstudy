@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">NurafshonStudy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">NurafshonStudy Education center</string>
+    <string name="nav_header_subtitle">nurafshon-study.uz</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="statistics_day">7</string>
+    <string name="software_title"><u><b>NURAFSHON STUDY</b></u></string>
+    <string name="software_body">
+        <p>Support Android version is 4.4-8.1.0 (API level 19-27)\n</p>
+        \n\n\n
+
+        <p>Orgnization: FONUS\n</p>
+\n\n
+        <p>Powered by Sarvarbek Matvapayev\n</p>
+        \n\n
+        <p>Email: sarvarbek.matvapayev@gmail.com\n</p>
+    </string>
+
+
+    <string name="education_title">
+        <b>“Nurafshon study” o’quv markazi</b>
+    </string>
+
+    <string name="education_body1">
+        «Umring mezonini shunday olki, go’yoki yashashingga ham oz, ham ko’p fursat qolgan bo’lsin». — degan edi Prineyalik Biant. Shunday ekan, har bir inson avvalo o’z maqsadini aniqlab olishi va shu maqsad yo’lida harakat qilishda to’xtovsiz davom etishi kerak. Maqsad doimo aniq qo’yilishi kerak. Masalan, “Men 2019-yilda Toshkent davlat Yuridik universitetiga har bitta fanlar bo’yicha berilgan testlar blokidan 30 tadan 30 ta ishlagan holda, 1-grand asosida o’qishga kiraman” tarzida. Bu maqsadni amalga oshirish uchun esa, o’qish, izlanish va tajribani oshirishdan charchamaslik kerak.
+\n\n Bizning o‘quv markaz
+\n\n Sizga sifatli ta’lim berish orqali o’z maqsadlaringizni amalga oshirishda yordam beradi.
+\n\n Abituriyentlar uchun maxsus psixologik treninglar
+\n\n Inson juda kuchli mavjudot. Chunki uni OLLOH  yaratgan. U juda ko’p narsalarni amalga oshirishi mumkin.Talaba bo’lishni maqsad qilgan abituriyentni to’g’ri ruhlantira olish lozim. Bizning o’quv markazimiz mutaxassislari esa aynan sizga kerakli motivatsiyani psixologik treninglar orqali singdira olishadi.
+\n\n <i>«Siz o’zingiz dunyoda ko’rishni istagan o’zgarish bo’la olishingiz kerak». — Mahatma Gandhi</i>
+\n\n Fanning haqiqiy mutaxasislari bo‘lgan ustozlar
+\n\n “Nurafshon study” o‘quv markazi ustozlari har bir abituriyentning xarakter xususiyatlariga qarab baho beradigan, ularning qiziqishlari nuqtasini topib, shunga binoan fanni o‘zlashtirishlari uchun yo‘l ko‘rsata oladigan darajada tajribaga egadirlar. Qobiliyatlari turlicha bo‘lgan abituriyentlardan fanni o‘zlashtirishda bir xilda yuqori natijalarni ko‘rsatib kelayotgan ustozlar jamoasi o‘quv markazining har yilgi yutuqlarining garovi hisoblanadi.
+    </string>
+
+    <string name="education_body2">
+        Ota-onalar farzandlarining bilim darajasi o‘sishi haqida xabardor qilinadi
+    </string>
+    <string name="education_body3">
+        •	www.nurafshon-study.uz sayti
+     \n •	www.test.nurafshon-study.uz sayti hamda  @nurafshon_study telegram kanali orqali oylik test sinovi natijalari e’lon qilinadi. Ota-onalar farzandlarining natijalarini sayt yoki test tashkilotchilarining maxsus sms xabarnomalari orqali bilishlari mumkin. Shuningdek, o‘quv markazi o‘quvchilari xohlagan vaqtda o‘z ilm darajalarini bilish uchun test topshirishlari mumkin. Buning uchun www.test.nurafshon-study.uz saytidan ro’yhatdan o’tish, ularni ishlash kifoya.
+    </string>
+
+    <string name="education_ubaydulla">
+        Ismoilov Ubaydulla
+\n Tarix fani o’qituvchisi, o’quv markaz direktori
+    </string>
+
+    <string name="education_ziyovutdin">
+        O’quv markaz adminstratori: Pardaboyev Ziyovutdin
+\n Mutaxassisligi: Tarix
+    </string>
+
+    <string name="education_footer1">
+        <b>Bizning manzillarimiz:</b>
+    </string>
+
+    <string name="education_footer2">
+        Toshkent viloyati , Nurafshon shahar, Qumariq-sada MFY,  32-maktab binosi
+\n Telefon: +998998892095, +998909909127
+    </string>
+
+</resources>

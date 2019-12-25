@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.nurafshonstudy.ui.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/test_result_height"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:background="@color/LightGreen"
+        >
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:text="Test natijalari"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_size_test_question"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textColor="@color/text_answer_color"
+                    />
+
+                <TextView
+                    android:id="@+id/alltestCountTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="text view 1"
+                    android:textSize="@dimen/text_size_answer"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv1"
+                    android:textColor="@color/text_answer_color"
+                    />
+
+
+                <TextView
+                    android:id="@+id/correcttestCountTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="text view 1"
+                    android:textSize="@dimen/text_size_answer"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/alltestCountTV"
+                    android:textColor="@color/text_answer_color"
+                    />
+
+                <TextView
+                    android:id="@+id/summaBallTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="text view 1"
+                    android:textSize="@dimen/text_size_answer"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/correcttestCountTV"
+                    android:textColor="@color/text_answer_color"
+                    />
+
+
+                <TextView
+                    android:id="@+id/protsentTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="text view 1"
+                    android:textSize="@dimen/text_size_answer"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/summaBallTV"
+                    android:textColor="@color/text_answer_color"
+                    />
+
+                <TextView
+                    android:id="@+id/bahoTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="text view 1"
+                    android:textSize="@dimen/text_size_answer"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/protsentTV"
+                    android:textColor="@color/text_answer_color"
+                    />
+
+
+                <TextView
+                    android:id="@+id/xulosaTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="text view 1"
+                    android:textSize="@dimen/text_size_answer"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/bahoTV"
+                    android:textColor="@color/text_answer_color"
+                    />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include layout="@layout/test_result_content_fragment" />
+
+</android.support.design.widget.CoordinatorLayout>
